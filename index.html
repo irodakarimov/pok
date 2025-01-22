@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>  
+    <div class="container">
+        <img class="gif" src="img/gif-poke.gif.png" alt="">
+        <h1 class="text">Pokémon</h1>
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="ABDULAZIZ JONKA" />
+            <select id="filterType">
+                <option value="all">All</option>
+                <option value="Grass Poison">all</option>
+                <option value="Fire">Bug</option>
+                <option value="Water">Dark</option>
+                <option value="Water">Dragon</option>
+                <option value="Bug">Electric</option>
+                <option value="Water">Fairy</option>
+                <option value="Water">Fighting</option>
+                <option value="Water">Fire</option>
+                <option value="Water">Flying</option>
+                <option value="Water">Ghost</option>
+                <option value="Water">Grass</option>
+                <option value="Water">Ground</option>
+                <option value="Water">Ice</option>
+                <option value="Water">Poison</option>
+                <option value="Water">Psychic</option>
+                <option value="Water">Rock</option>
+                <option value="Water">Water</option>
+                <option value="Water"></option>
+            </select>
+            <select id="sortBy">
+                <option value="alphabeticalAsc"> (A-Z)</option>
+                <option value="alphabeticalDesc"> (Z-A)</option>
+                <option value="weightAsc">Weight (Low to High)</option>
+                <option value="weightDesc">Weight (High to Low)</option>
+            </select>
+            <button class="se" id="searchButton">Search</button>
+        </div>
+
+            <div id="huu" class="card-big">
+                <div class="pokemon-card">
+                    <div class="header">
+                        <h2 class="bull">Bulbasaur</h2>
+                        <div class="id-badge">001</div>
+                    </div>
+                    <img src="img/001.png" alt="Bulbasaur" class="pokemon-image">
+                    <div class="type">Grass Poison</div>
+                    <div class="details">
+                        <p>Candy count: 25</p>
+                        <p>6.9 kg</p>
+                    </div>
+                    <div class="weaknesses">
+                        <p>Fire Ice Flying Psychic</p>
+                    </div>x
+                    <div class="footer">
+                        <span>20:00</span>
+                    </div>
+                </div>
+                
+                </div>
+
+            </div>
+          
+
+
+    </div>
+
+    <script type="module" src="pokemons.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
